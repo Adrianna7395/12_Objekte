@@ -39,17 +39,30 @@ let person =
         };
 
 
-output(person);
-person.firstName = "Thilo";
-output(person.firstName);
-output(person.familyName);
+// output(person);
+// person.firstName = "Thilo";
+// output(person.firstName);
+// output(person.familyName);
 
-const txt = "Ich bin " + person.firstName + " " + 
-            person.familyName + " und verdiene " + 
-            person.salary[1] + " p.a."
-output(txt);
+// const txt = "Ich bin " + person.firstName + " " + 
+//             person.familyName + " und verdiene " + 
+//             person.salary[1] + " p.a."
+// output(txt);
 
-output(person.sayHello());
+// output(person.sayHello());
+
+//  Objekte 2 -- Hierarchie
+// "Tiefer, tiefer.Irgendwo in der TiefeGibt es ein licht."
+// Der Baikalsee idt mit 1642 m der tiefste See der Erde
+
+const baikal =
+{
+        value: "10m"
+};
+
+output(baikal);
+output(baikal.value);
+
 
 
 /** Ausgabe */
